@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+    int NUM = 0,I=0;
+    std::cout << "自然数は\n";
+    std::cin >> NUM;
+    std::cout << "約数は\n";
+    for (I = 1; I <= NUM; I++) {
+        if ((NUM % I) == 0)std::cout << I << std::endl;
+    }
+    std::cout << "です\n";
+}
